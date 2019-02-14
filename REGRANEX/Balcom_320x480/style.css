@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#adborder_standard {
+  border: solid;
+  border-width: 1px;
+  border-color: #000;
+  width: 320px;
+  height: 480px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+
+#container_standard {
+  width: 320px;
+  height: 480px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background-color: #eee;
+  padding: 0px;
+  opacity: 0;
+}
+
+#container_standard .pdf-download {
+  color: white;
+}
+
+#container_standard .pdf-download span {
+  text-decoration: underline;
+}
+
+#container_standard #logo_brand_standard {
+  position: absolute;
+  width: 95px;
+  height: 35px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+  background-position: -9px -49px;
+  bottom: 3px;
+  left: 5px;
+  zoom: 125%
+}
+
+
+/*---------- BRAND BUTTON -----------*/
+
+#container_standard #btn_cta_standard {
+  background-color: #e5371d;
+  color: #fff;
+  font-weight: normal;
+  position: absolute;
+  width: 120px;
+  height: 28px;
+  top: 357px;
+  left: 8px;
+}
+
+#container_standard #btn_cta_standard #btn_cta_standard_text {
+  position: absolute;
+  font-size: 13px;
+  letter-spacing: .02em;
+  color: #ffffff;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+#container_standard #btn_cta_standard #btn_cta_standard_text_carrot {
+  position: absolute;
+  left: 97px;
+  top: 6px;
+  width: 15px;
+  height: 15px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+  background-position: -9px -99px;
+}
+
+/*---------- BUTTON - INVISIBLE EXIT -----------*/
+
+#btn_exit {
+  width: 165px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  /* IE10 needs a background color otherwise it won't capture clicks */
+  background-color: #FFF;
+  display: block;
+  opacity: 0;
+}
+
+#container_standard sup {
+  font-size: xx-small;
+  vertical-align: super;
+  line-height: 0em;
+}
+
+/*---------- SCENES -----------*/
+
+#bg_gradient {
+  position: absolute;
+  width: 170px;
+  height: 480px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+23,cccccc+100 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 23%, #cccccc 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 23%, #cccccc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ffffff 23%, #cccccc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#foot {
+  position: absolute;
+  width: 222px;
+  height: 218px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+  background-position: 8px -140px;
+  transform: rotate(-45deg);
+  zoom: 150%;
+  top: 10px;
+  right: 60px;
+
+}
+
+.ad_text {
+  position: absolute;
+  font-size: 20px;
+  color: #e92916;
+  left: 10px;
+  font-weight: bold;
+  letter-spacing: -.04em;
+  line-height: 24px;
+}
+
+#scn1_text {
+  top: 350px;
+  width: 155px;
+}
+
+#scn2_text {
+  top: 350px;
+  width: 155px;
+}
+
+#scn3_text {
+  top: 350px;
+  width: 155px;
+}
+
+#scn4_text {
+  top: 350px;
+  width: 155px;
+}
+
+#scn5_text {
+  top: 165px;
+  width: 140px;
+  letter-spacing: -.02em;
+  line-height: 24px;
+  font-size: 20px;
+}
+#wound_halftone {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  left: -2px;
+  top: 50px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-position: -150px -330px;
+  background-repeat: no-repeat;
+  zoom: 150%;
+}
+.wound {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  left: -2px;
+  top: 50px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+}
+
+#scn1_wound {
+  background-position: -33px -330px;
+  top: 95px;
+  left: 5px;
+}
+
+#scn2_wound {
+  background-position: -33px -330px;
+  top: 95px;
+  left: 5px;
+}
+
+#scn3_wound {
+  background-position: -24px -600px;
+  top: 68px;
+  right: 2px;
+}
+
+#scn5_graphic {
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+  background-position: -70px -825px;
+  zoom: 150%;
+}
+
+/*---------- ISI STANDARD -----------*/
+
+#isi_standard {
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  background-color: #fff;
+  text-align: left;
+}
+
+#isi_standard #isi_scroll {
+  position: absolute;
+  width: 150px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: none;
+  height: 450px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff;
+  cursor: default;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+#isi_standard #isi_scroll #header_ISI_space {
+  position: static;
+  height: 3px;
+  width: 20px;
+  top: 0px;
+}
+
+#isi_standard h4 {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: -6px;
+}
+
+#isi_standard h5 {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: -14px;
+}
+
+#isi_standard p {
+  line-height: 10px;
+}
+
+#isi_standard p.bold {
+  font-weight: bold;
+}
+
+#isi_standard .hyphenate_this {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+#isi_standard sup {
+  font-size: 7px;
+  vertical-align: super;
+  line-height: 0em;
+}
+
+#isi_standard ul, ol {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding-left: 7px;
+  padding-right: 0px;
+}
+
+#isi_standard li {
+  margin-bottom: 6px;
+}
+
+#isi_standard #isi_scroll #company_logo_standard {
+  width: 115px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: -2px;
+  /* background-image: url('Regranex_spriteSheet.png'); */
+  background-repeat: no-repeat;
+  background-position: -9px -10px;
+}
+
+#isi_standard #isi_scroll #company_logo_standard_tagline {
+  width: 95px;
+  margin-top: 0px;
+  margin-left: 18px;
+  font-size: 9px;
+}
+
+#isi_standard #isi_PI_standard {
+  position: absolute;
+  width: 145px;
+  height: 28px;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 3px 0px 0px 5px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  /* font-weight: bold; */
+  background-color: #707070;
+  cursor: pointer;
+}
+
+#isi_standard #isi_body_link_FDA {
+  color: #f58220 !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#isi_standard #isi_body_link_PI {
+  color: #f58220 !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#isi_standard #isi_body_link_medGuide {
+  color: #f58220 !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#isi_standard #isi_body_link_site {
+  color: #f58220 !important;
+  font-weight: bold;
+  cursor: pointer;
+}
